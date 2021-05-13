@@ -1,0 +1,239 @@
+
+html {
+  height: 100vh;
+}
+
+body {
+    background-color: white;
+}
+
+.why-choose-us {
+  justify-content: space-around;
+  margin-bottom: 5%;
+  margin-top: 5px;
+}
+
+ul.why-choose-us1 {
+  list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #ca7681;
+height: 60px;
+width: 35%;
+margin-left: 5%;
+}
+
+li.why-choose-us1 {
+  float: left;
+  margin-top: 2%;
+  font-size: 25px;
+  }
+  
+  li.why-choose-us1 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  }
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #7b113a;;
+    position: fixed;
+    top: 0;
+    width: 100%;
+align-items: center;
+overflow:auto;  
+}
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+ justify-content: center;
+    
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #ca7681;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+  
+  .title {
+    height: 300px;
+    background-image: url("https://images.unsplash.com/reserve/xd45Y326SvKzSR3Nanc8_MRJ_8125-1.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80");
+     background-repeat: no-repeat;
+     background-position: center;
+    background-size: 90%;
+ height: 500px;
+
+  
+  
+  }
+  
+  h1 {
+    font-size: 80px;
+    font-family: 'Dela Gothic One', cursive;
+    color: #7b113a;
+    text-shadow: 2px 2px rosybrown;
+    margin-left: 5%;
+  }
+
+  .h1-blossom {
+    padding-top: 20px;
+    padding-left: 20%;
+    text-shadow: 2px 2px rosybrown;
+  
+  }
+  
+  .caption {
+   padding-left: 30%;
+   padding-top: 5px;
+   font-size: 20px;
+    color: #7b113a;
+    text-shadow: 5px 5px rosybrown;
+  }
+  
+  h2 {
+    color: #7b113a;
+    margin-left: 5%;
+  }
+  
+
+  
+  .introduction {
+ 
+   margin-right: 10% ;
+text-align: center;
+background: url("https://images.unsplash.com/photo-1607664675739-40ba5b75982d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80");
+background-repeat: no-repeat;
+background-size: 80%;
+display: block;
+overflow: auto;
+height: 1000px;
+margin-top: 5%;
+margin-left: 25%;
+color: aliceblue;
+
+  }
+
+  
+
+  .parent {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .child {
+    flex: 1 0 21%; /* explanation below */
+   margin-left: 5%;
+   margin-right: 5%;
+    height: 800px;
+    background-color: white;
+    column-gap: 5%;
+    display: block;
+    transition: transform .2s; /* Animation */
+  }
+  
+  .img-child:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+ 
+
+  
+  
+  h2.lorem-ipsum {
+    margin-left: 1%;
+  }
+  
+  
+    p{
+        font-family: 'Open Sans', sans-serif;
+        color: black;
+        font-size: 20px;
+       
+        
+    }
+
+    p.contacts {
+      margin-left: 5%;
+    }
+
+    .intro {
+        margin-right: 25%;
+        color: #7b113a;
+    
+      }
+      
+      .first{
+        margin-left: 5%;
+        text-align: left;
+      }
+
+h2.about{
+    margin-left: 5%;
+}
+
+h2{
+  font-size: 35px;
+  text-shadow: burlywood;
+
+
+}
+
+.btn1 {
+  font-size: 15px;
+}
+
+p.p-about {
+  margin-left: 5%;
+}
+
+img.about-img {
+  margin-left: 5%;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+
+
+
+
+button{
+  margin-left: 5%;
+}
+
+#contact {
+  margin-left: 5%;
+}
+
+
+
+footer {
+margin-left: 50%;
+padding: 10px;
+}
